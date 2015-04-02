@@ -206,7 +206,7 @@ MyModelView = Backbone.View.extend({
   }
 });
 
-modelview = new MyModelView();
+modelview = new MyModelView;
 
 pubnub.subscribe({
   channel: uuid,
